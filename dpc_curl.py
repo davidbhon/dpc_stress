@@ -1,6 +1,7 @@
 #!/bin/env python3
 import certifi, os, sys, datetime as dt
 from io import BytesIO
+from threading import Thread
 
 # kinda PEP 8 style
 pep8url = 'https://peps.python.org/pep-0008/'
@@ -37,6 +38,18 @@ def dpc_curl(url, ver='v1', id=None):
   body = buffer.getvalue()
   content = body.decode('iso-8859-1') ; print(content)
   return content
+
+def thrd_curls(cnt=10):
+  """
+  Use standard thread module to kick off a bunch of asyncio curls
+  See https://www.pythontutorial.net/advanced-python/python-threading/
+  """
+  threads = []
+  for n in range(1,cnt+1):
+    tv1 = Thread(target=dpc_curl, args=(url, 'v1')) ; threads.append(tv1) ; tv1.start()
+    tv2 = Thread(target=dpc_curl, args=(url, 'v2')) ; threads.append(tv2) ; tv2.start()
+
+  for t in threads: t.join()
 
 def main():
   """
