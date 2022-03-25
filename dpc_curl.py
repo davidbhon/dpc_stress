@@ -20,7 +20,7 @@ def dpc_curl(url, ver='v1', id=None):
   Curl REST DPC API via version and Id
   code based on http://pycurl.io/docs/latest/quickstart.html
   Comments moved into this docstring
-  Body is a byte string.
+  Body is a byte string. 
   We have to know the encoding in order to print it to a text file
   such as standard output.
   """
@@ -41,6 +41,15 @@ def dpc_curl(url, ver='v1', id=None):
 def main():
   """
   Main entry to DPC API testing via pycurl module
+  Relevant docs:
+    https://confluence.cms.gov/pages/viewpage.action?spaceKey=DAPC&title=V2+Comparison
+    https://jira.cms.gov/browse/DPC-2226?jql=sprint%20%3D%2019023
+    https://nodis3.gsfc.nasa.gov/OPD_docs/NID_2810_135_.pdf
+    https://www.governmentattic.org/43docs/TreasuryDP80-08CUI_2018.pdf
+    https://confluence.cms.gov/pages/viewpage.action?spaceKey=DAPC&title=DRAFT+DPC+Pilot+Roadmap
+    https://confluence.cms.gov/display/DAPC/DPC+Version+2+Technical+Specification#DPCVersion2TechnicalSpecification-APIService
+    Note V2 Endpoints table in above and also
+    https://confluence.cms.gov/display/DAPC/DPC+Version+2+Implementation+Guide
   """
   print("Hello DPC v1 and v2")
   # test v1 defaults
