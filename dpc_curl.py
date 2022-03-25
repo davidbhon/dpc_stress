@@ -51,6 +51,15 @@ def thrd_curls(cnt=10):
 
   for t in threads: t.join()
 
+def fetch_endpoints(ver='all', yml=None, json=None, xml=None):
+  """
+  Return tuples or lists of all REST endpoints for v1 or v2
+  Default list hadr-coded here, and can be reset via optional yaml or json or xml input file
+  """
+  v1 = ['v1', 'hard', 'coded', 'default', 'list', 'optionally', 'read', 'from json or xml file')
+  v2 = ['v2', 'hard', 'coded', 'default', 'list', 'optionally', 'read', 'from json or xml file')
+  return (v1, v2)
+
 def main():
   """
   Main entry to DPC API testing via pycurl module
