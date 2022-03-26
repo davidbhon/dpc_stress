@@ -1,6 +1,7 @@
 # dpc_stress
 
-Bash and Python scripts to curl DPC REST v1 and v2 endpoints, which may be ported to Go-lang or Swift-lang for
+Misc. stuff along with bash and python gists related to the dpc-app.
+Python and optionally Bash (via CLI history) scripts to curl DPC REST v1 and v2 endpoints, which may be ported to Go-lang or Swift-lang for
 better performance.
 
 Refs. listed below. More TBD.
