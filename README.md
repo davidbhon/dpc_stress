@@ -34,7 +34,9 @@ Ubuntu Linux CLI extract CUI cover sheet template (page 20) from DoD PDF:
 
 Sadly the Python PDF module(s) did not fully install successfully. However, consider groovy scripts that import this awesome-ness:
 
-[Awesome JVM PDF tools](https://pdfbox.apache.org) 
+[Awesome JVM PDF tools](https://pdfbox.apache.org)
+
+[Download Groovy shell](https://groovy.apache.org/download.html)
 
 ---
 
