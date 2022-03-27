@@ -27,3 +27,11 @@ Refs. listed below. More TBD.
 [DPC V2 Tech Specs](https://confluence.cms.gov/display/DAPC/DPC+Version+2+Technical+Specification#DPCVersion2TechnicalSpecification-APIService)
     
 ---
+
+Ubuntu Linnux CLI extract CUI cover sheet template (page 20) from DoD PDF:
+
+    pdftk A=N_PR_2810_0007_.pdf cat A20 output CUI_1.pdf
+
+---
+
+
