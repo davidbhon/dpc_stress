@@ -34,7 +34,11 @@ Ubuntu Linux CLI extract CUI cover sheet template (page 20) from DoD PDF:
 
     pdftk A=N_PR_2810_0007_.pdf cat A20 output CUI_1.pdf
 
-Sadly the Python PDF module(s) did not fully install successfully. However, consider groovy scripts that import this groovy awesomeness:
+[Python PDF module](https://pypi.org/project/PyPDF2)
+
+---
+
+Also consider groovy scripts that import this groovy awesomeness:
 
 [Awesome JVM PDF tools](https://pdfbox.apache.org)
 
@@ -42,4 +46,25 @@ Sadly the Python PDF module(s) did not fully install successfully. However, cons
 
 ---
 
+Cloud tools to consider:
+
+[AWS Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/create-sample-projects.html)
+
+[Google Big Data Stats](https://cloud.google.com/bigquery)
+
+[Elastic Log Monitoring and Search](https://www.elastic.co/observability/log-monitoring)
+
+[Telemtry Logging](https://opentelemetry.io/)
+
+---
+
+CCSDS and NASA Refs:
+
+[CCSDS Standards](https://public.ccsds.org/default.aspx)
+
+[NASA Systems Engineering](https://www.nasa.gov/connect/ebooks/nasa-systems-engineering-handbook)
+
+More TBD
+
+---
 
