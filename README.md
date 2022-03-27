@@ -25,7 +25,9 @@ Refs. listed below. More TBD.
 [DPC V2 Impl Guide](https://confluence.cms.gov/display/DAPC/DPC+Version+2+Implementation+Guide)
     
 [DPC V2 Tech Specs](https://confluence.cms.gov/display/DAPC/DPC+Version+2+Technical+Specification#DPCVersion2TechnicalSpecification-APIService)
-    
+
+[DPC V1 Tech Specs](https://dpc.cms.gov/docsV1)
+
 ---
 
 Ubuntu Linux CLI extract CUI cover sheet template (page 20) from DoD PDF:
