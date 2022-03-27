@@ -28,9 +28,13 @@ Refs. listed below. More TBD.
     
 ---
 
-Ubuntu Linnux CLI extract CUI cover sheet template (page 20) from DoD PDF:
+Ubuntu Linux CLI extract CUI cover sheet template (page 20) from DoD PDF:
 
     pdftk A=N_PR_2810_0007_.pdf cat A20 output CUI_1.pdf
+
+Sadly the Python PDF module(s) did not fully install successfully. However, consider groovy scripts that import this awesome-ness:
+
+    [Awsome JVM PDF tools](https://pdfbox.apache.org) 
 
 ---
 
