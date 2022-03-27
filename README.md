@@ -32,7 +32,7 @@ Ubuntu Linux CLI extract CUI cover sheet template (page 20) from DoD PDF:
 
     pdftk A=N_PR_2810_0007_.pdf cat A20 output CUI_1.pdf
 
-Sadly the Python PDF module(s) did not fully install successfully. However, consider groovy scripts that import this awesome-ness:
+Sadly the Python PDF module(s) did not fully install successfully. However, consider groovy scripts that import this groovy awesomeness:
 
 [Awesome JVM PDF tools](https://pdfbox.apache.org)
 
