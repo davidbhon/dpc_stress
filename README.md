@@ -19,6 +19,14 @@ Refs. listed below.
 
 ---
 
+### Institutional Repository References
+
+[MIT Dspace](https://dspace.mit.edu/)
+
+[UVA Fedora](https://collab.its.virginia.edu/wiki/toolbox/Fedora.html)
+
+---
+
 ### Data Point of Care
 
 [DPC-2226](https://jira.cms.gov/browse/DPC-2226)
